@@ -1,0 +1,114 @@
+body{
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat, ;
+}
+.navbar-top{
+    background-image:linear-gradient(180deg, rgb(244, 232, 216, 0.7), rgb(181, 228, 250, 0.7) ) ;
+    
+}
+.logo{
+    text-align: center;
+    margin-left: 10px;
+}
+.nav-btn{
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+.list-group-item{
+    border-radius: 50px;
+}
+.background-list{
+    background-image: url(/img/books.jpg);
+    --mask: 
+    linear-gradient(#000 0 0) 50%/calc(100% - 20.35px) calc(100% - 20.35px) no-repeat,
+    radial-gradient(farthest-side,#000 98%,#0000) 0 0/22px 22px round;
+    -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.ul-list{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    font-family: 'Righteous', cursive;
+    background-color: rgba(247, 219, 185, 0.397);
+    text-shadow: 0px 0px 18px #5C5D5A;
+    list-style-type: none;
+    opacity: 1;
+    text-align: left;
+    padding: 15px;
+    margin: auto ;
+    
+}
+.btn{
+    background-color: rgba(175, 190, 227, 0.667);
+    
+}
+.btn:hover{
+    box-shadow: 5px 5px 20px 10px #929098;
+}
+.right-col{
+    --mask: 
+    linear-gradient(#000 0 0) 50%/calc(100% - 20px) calc(100% - 20px) no-repeat,
+    radial-gradient(10px,#0000 98%,#000) 0 -10px/18.50px 20px round no-repeat,
+    radial-gradient(10px,#0000 98%,#000) 0 calc(100% + 10px)/18.50px 20px round no-repeat,
+    radial-gradient(10px,#0000 98%,#000) -10px 0/20px 18.50px no-repeat round,
+    radial-gradient(10px,#0000 98%,#000) calc(100% + 10px) 0/20px 18.50px no-repeat round;
+  clip-path: polygon(20px 0,calc(100% - 20px) 0,100% 20px,100% calc(100% - 20px),calc(100% - 20px) 100%,20px 100%,0 calc(100% - 20px),0 20px);
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+     padding: 10px; 
+      background-color: rgba(218, 21, 21, 0.422);
+    width: 50%;
+    margin-left: 230px ;
+    font-family: 'Poppins', sans-serif;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(255,0,0,0.99); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(255,0,0,0.99);   
+}
+.right-col-price{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    
+}
+.card-header{
+    background-color: rgba(255, 228, 196, 0.379);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.card-body-footer{
+    background-color: rgba(236, 181, 181, 0.634);
+    height: 90px;
+}
+.book-list:hover{
+    animation: grow-and-shrink 2000ms ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    
+}
+@keyframes grow-and-shrink {
+    0% {
+      transform: scale(1);
+    }
+    
+    100%{
+        transform: scale(1.1);
+     }
+ }
+ .sale:hover{
+    border: none;
+ } 
+
+.sale {
+    display: block;
+    border: 5px solid rgba(255, 255, 255, 0.527);
+    animation: border-pulsate 2s infinite;
+   
+}
+@keyframes border-pulsate {
+    0%   { background-color: rgba(255, 255, 255, 0.527); }
+    50% { background-color: rgba(255, 0, 0, 0.56); }
+    100%   { background-color: rgba(255, 255, 255, 0.527); }
+}
+ 
+  
