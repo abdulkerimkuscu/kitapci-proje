@@ -1,5 +1,5 @@
 body{
-    background-image: url(/img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat, ;
 }
 .navbar-top{
@@ -18,7 +18,7 @@ body{
     border-radius: 50px;
 }
 .background-list{
-    background-image: url(/img/books.jpg);
+    background-image: url(../img/books.jpg);
     --mask: 
     linear-gradient(#000 0 0) 50%/calc(100% - 20.35px) calc(100% - 20.35px) no-repeat,
     radial-gradient(farthest-side,#000 98%,#0000) 0 0/22px 22px round;
